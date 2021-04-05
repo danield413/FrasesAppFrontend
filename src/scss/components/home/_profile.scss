@@ -1,0 +1,135 @@
+.main-content-profile{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 40px 1fr;
+    h2{
+        display: flex;
+        align-items: center;
+        margin-left: 40px;
+        .fa-cog{
+            margin-right: 10px;
+            color: $especial;
+        }
+    }
+    .profile-flex{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        .profile-box{
+            margin-top: 40px;
+            width: 400px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            p{
+                font-family: $open;
+                margin-bottom: 10px;
+            }
+            .profile-btn-modal{
+                margin-top: 20px;
+                grid-column: 1/3;
+                height: 40px;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                background: $especial;
+                color: white;
+                font-weight: bold;
+                border-radius: 5px;
+                transition: 0.3s ease;
+                &:hover{
+                    background: darken($color: $especial, $amount: 10);
+                }
+            }
+            .profile-form{
+                grid-column: 1/3;
+                .profile-input{
+                    width: 100%;
+                    margin: 10px 0;
+                    height: 40px;
+                    padding: 5px;
+                    outline: none;
+                    border: none;
+                    border-bottom: 2px solid black;
+                    font-family: $open;
+                    transition: 0.3s ease;
+                    &:focus{
+                        border-bottom: 2px solid $especial;
+                    }
+                }
+                .profile-submit{
+                    width: 100%;
+                    height: 40px;
+                    background: $especial;
+                    border: none;
+                    font-weight: bold;
+                    color: white;
+                    border-radius: 5px;
+                    outline: none;
+                    cursor: pointer;
+                    transition: 0.3s ease;
+                    &:hover{
+                        background: darken($color:$especial, $amount: 10);
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+
+@media screen and(max-width: 470px){
+    .main-content-profile{
+        h2{
+            font-size: 20px;
+        }
+        .profile-flex{
+            .profile-box{
+                width: 90%;
+            }
+        }
+    }
+}
+
+@media screen and(max-width: 360px){
+    .main-content-profile{
+        h2{
+            font-size: 18px;
+        }
+        .profile-flex{
+            .profile-box{
+                width: 90%;
+                p{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and(max-width: 330px){
+    .main-content-profile{
+        h2{
+            font-size: 16px;
+        }
+        .profile-flex{
+            .profile-box{
+                width: 90%;
+                p{
+                    font-size: 14px;
+                }
+                .profile-btn-modal{
+                    font-size: 14px;
+                }
+                .profile-form{
+                    .profile-input{
+                        font-size: 14px;
+                    }
+                    .profile-submit{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}

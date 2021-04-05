@@ -1,0 +1,18 @@
+
+@import '~@sweetalert2/theme-bootstrap-4/bootstrap-4.scss';
+
+@import './base/settings';
+@import './base/global';
+
+//components
+@import './components/auth/login';
+@import './components/ui/footer';
+@import './components/ui/navbar';
+@import './components/ui/card';
+@import './components/home/home';
+@import './components/ui/modal';
+@import './components/home/account';
+@import './components/home/profile';
+@import './components/home/myphrases';
+@import './components/home/saves';
+@import './components/user/user';
