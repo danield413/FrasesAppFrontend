@@ -36,6 +36,7 @@ export const startLogin = ( email, password ) => {
             email,
             password,
         })
+        console.log(resp)
         if( resp.data.ok ){
             localStorage.setItem('token', resp.data.token );
             localStorage.setItem('token-init-date', new Date().getTime() );

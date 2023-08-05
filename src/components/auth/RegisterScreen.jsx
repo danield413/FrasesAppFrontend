@@ -92,7 +92,7 @@ export const RegisterScreen = () => {
           <Link className="form-link" to="/auth/login">
             O crear una nueva cuenta
           </Link>
-          <p className="love">Made with ❤️ by Daniel</p>
+          <p className="love">Made with ❤️ by Daniel Díaz</p>
         </div>
       </header>
     </>

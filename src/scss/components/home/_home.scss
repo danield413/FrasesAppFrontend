@@ -55,7 +55,7 @@
     }
 }
 
-@media screen and(max-width: 1180px){
+@media screen and (max-width: 1180px){
     .main{
         grid-template-columns: 1fr 1fr;
         .home-header{
@@ -64,7 +64,7 @@
     }
 }
 
-@media screen and(max-width: 835px){
+@media screen and (max-width: 835px){
     .main{
         padding: 60px 10px;
         grid-template-columns: 1fr ;
@@ -74,7 +74,7 @@
     }
 }
 
-@media screen and(max-width: 500px){
+@media screen and (max-width: 500px){
     .add-btn{
         bottom: 20px;
         right: 20px;

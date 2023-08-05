@@ -53,7 +53,7 @@ export const UserScreen = () => {
             <main className="main-user">
                 <div className="main-header">
                     <div>
-                        <img src="https://www.personality-database.com/profile_images/3033.png?id=161577" alt="usuario"/>
+                        <img src="https://m.media-amazon.com/images/M/MV5BYTMzYTMzN2QtNmIwOC00ODVlLTgxOGYtOTU5Y2U1ZmFhNzc0XkEyXkFqcGdeQXVyMzQ3OTE4NTk@._V1_.jpg" alt="usuario"/>
                     </div>
                 </div>
                 <h2 className="main-title">{name}</h2>
