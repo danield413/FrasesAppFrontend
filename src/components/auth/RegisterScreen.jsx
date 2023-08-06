@@ -90,7 +90,7 @@ export const RegisterScreen = () => {
             </motion.button>
           </form>
           <Link className="form-link" to="/auth/login">
-            O crear una nueva cuenta
+            O iniciar sesión
           </Link>
           <p className="love">Made with ❤️ by Daniel Díaz</p>
         </div>
